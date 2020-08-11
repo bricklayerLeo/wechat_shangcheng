@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "search-cmp": "/components/searchinput/index"
+  },
+  "navigationBarTitleText": "商品分类"
+}

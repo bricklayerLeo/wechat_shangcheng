@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "search-cmp": "/components/searchinput/index",
+    "tabs-cmp": "/components/tabs/index"
+  },
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle":"dark"
+}
