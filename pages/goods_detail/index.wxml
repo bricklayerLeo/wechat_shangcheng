@@ -19,7 +19,7 @@
   <view class="goods_name_row">
     <view class="goods_name">{{goodsObj.goods_name}}{{goodsObj.goods_name}}</view>
     <view class="goods_collect" bindtap="handleCollect" >
-      <text class="iconfont   {{isCollect?'icon-shoucang1':'icon-shoucang'}} "></text>
+      <text class="iconfont   {{isCollect?'iconcollection-b':'iconshoucang'}} "></text>
       <view class="collect_text">收藏</view>
     </view>
   </view>
@@ -35,17 +35,20 @@
   
   <view class="btm_tool">
     <view class="tool_item">
-      <view class="iconfont icon-kefu"></view>
+      <view class="iconfont iconkefu"></view>
       <view>客服</view>
-      <button open-type="contact"></button>
+      <button class="btn" open-type="contact"></button>
+      <!-- 按钮 客服 -->
     </view>
     <view class="tool_item">
-      <view class="iconfont icon-yixianshi-"></view>
+      <view class="iconfont iconfenxiang_2"></view>
       <view>分享</view>
-      <button open-type="share"></button>
+      <button class="btn" open-type="share"></button>
+      <!-- 分享按钮 -->
     </view>
     <navigator open-type="switchTab" url="/pages/cart/index" class="tool_item">
-      <view class="iconfont icon-gouwuche"></view>
+      <!-- 跳转到tab页面 需要  open-type="switchTab"-->
+      <view class="iconfont icongou_wu_che2"></view>
       <view>购物车</view>
     </navigator>
     <view class="tool_item btn_cart " bindtap="handleCartAdd">
